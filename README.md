@@ -58,6 +58,17 @@
 
 ![alt text](https://github.com/belkanah/fop23-hw02/blob/main/img/last_date.jpg)
 
+Команды: 
+`wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_7.0-1+debian12_all.deb`
+`dpkg -i zabbix-release_7.0-1+debian12_all.deb`
+`apt update`
+`apt install zabbix-agent`
+`systemctl restart zabbix-agent`
+`systemctl enable zabbix-agent`
+`sudo nano /etc/zabbix/zabbix_agentd.conf`
+
+
+
 
 
 

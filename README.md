@@ -49,6 +49,17 @@
 
 ### Решение 2
 
+![alt text](https://github.com/belkanah/fop23-hw02/blob/main/img/zabbix_hosts.jpg)
+
+Работает с сервером не будет видно, т.к. мы его в активных не указываем.
+![alt text](https://github.com/belkanah/fop23-hw02/blob/main/img/silaeva_agent.jpg)
+
+![alt text](https://github.com/belkanah/fop23-hw02/blob/main/img/silaeva_agent1.jpg)
+
+![alt text](https://github.com/belkanah/fop23-hw02/blob/main/img/last_date.jpg)
+
+
+
 
 
 

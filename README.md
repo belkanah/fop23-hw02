@@ -17,7 +17,7 @@
 
 ![alt text](https://github.com/belkanah/fop23-hw02/blob/main/img/zabbix.jpg)
 
-'apt install postgresql    
+`apt install postgresql    
 wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_7.0-1+debian12_all.deb   
 dpkg -i zabbix-release_7.0-1+debian12_all.deb   
 apt update     
@@ -27,7 +27,7 @@ sudo -u postgres createdb -O zabbix zabbix
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix   
 nano /etc/zabbix/zabbix_server.conf     
 systemctl restart zabbix-server zabbix-agent apache2     
-systemctl enable zabbix-server zabbix-agent apache2 '  
+systemctl enable zabbix-server zabbix-agent apache2 `  
 
 ---
 
